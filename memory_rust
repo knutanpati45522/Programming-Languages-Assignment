@@ -1,0 +1,4 @@
+fn main() {
+    let x = Box::new(10);
+    println!("{}", x);
+} // Memory freed automatically when x goes out of scope
