@@ -1,0 +1,7 @@
+public class MemoryJava {
+    public static void main(String[] args) {
+        Integer obj = new Integer(10);
+        obj = null; // Eligible for garbage collection
+        System.out.println("Memory handled by GC");
+    }
+}
